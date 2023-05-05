@@ -7,8 +7,14 @@ For subscription-based businesses, reducing customer churn is a top priority. In
 
 # **Step 1: Exploratory Analysis**
 In this step I'll perform Exploratory Analysis. Exploring the new dataset and revisit creating measures in Power BI to get a better understanding of why customers are churning. The following tasks will be performed throughout the exploratory process: 
-- Data Check. 
-- Understanding Churn. 
+- Data Check:
+We are checking if there are duplicate rows here. 
+To check we created two measures to check if the Count of customers Ids is equal to the count of unique customer Ids.   
+
+    `Number of Customers = COUNT('Databel - Data'[Customer ID])`  
+    `Number of Unique Customers = DISTINCTCOUNT('Databel - Data'[Customer ID])` 
+- Understanding Churn:
+
 - Calculating Churn. 
 - Investingating Churn Reason. 
 - Digging Deeper into Churn Categories. 
