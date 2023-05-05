@@ -6,7 +6,7 @@ For subscription-based businesses, reducing customer churn is a top priority. In
 
 
 # **Step 1: Exploratory Analysis**
-In this step I'll perform Exploratory Analysis. Exploring the new dataset and revisit creating measures in Power BI to get a better understanding of why customers are churning. The following tasks will be performed throught the Explaratory Process: 
+In this step I'll perform Exploratory Analysis. Exploring the new dataset and revisit creating measures in Power BI to get a better understanding of why customers are churning. The following tasks will be performed throughout the exploratory process: 
 - Data Check. 
 - Understanding Churn. 
 - Calculating Churn. 
