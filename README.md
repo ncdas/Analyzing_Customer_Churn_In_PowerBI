@@ -13,3 +13,15 @@ In this step I'll perform Exploratory Analysis. Exploring the new dataset and re
 - Investingating Churn Reason. 
 - Digging Deeper into Churn Categories. 
 - Use Map. 
+
+# **Step 2: Investigating Churn Patterns**
+In this step 2 I'll investigate all possible churn patterns to find out Why Customers are leaving. 
+The tasks wil carried out in this steps are: 
+- Analyzing Demographics. 
+- Age groups(Age Bin).
+- Inspecting Groups.
+- Multiple Fields to Investigate. 
+- Unlimited Plan. 
+- International Calls. 
+- Advice to Databel. 
+- Contract Type. 
