@@ -11,14 +11,17 @@ In this step I'll perform Exploratory Analysis. Exploring the new dataset and re
 We are checking if there are duplicate rows here. 
 To check we created two measures to check if the Count of customers Ids is equal to the count of unique customer Ids.   
 
-    `Number of Customers = COUNT('Databel - Data'[Customer ID])`  
-    `Number of Unique Customers = DISTINCTCOUNT('Databel - Data'[Customer ID])` 
+        Number of Customers = COUNT('Databel - Data'[Customer ID])
+
+        Number of Unique Customers = DISTINCTCOUNT('Databel - Data'[Customer ID]) 
 - Calculating Churn:  
  This is the very first thing we should find out before deep-diving into the analysis. There is a column called `Churn Label` that inidcates "Yes" or "No" but this column isn't easiest to work with.   
- Now we'll convert this column to a binomial column   
-  `Churned = IF('Databel - Data'[Churn Label] = "Yes", 1, 0)`  
+ Now we'll convert this column to a binomial column
+
+        Churned = IF('Databel - Data'[Churn Label] = "Yes", 1, 0)  
   indicating if the customer churned or not. Then we'll use that to calculate the churn rate.   
- `Churn_rate = DIVIDE([Number of Churned Customers], [Number of Customers])`  
+
+Churn_rate = DIVIDE([Number of Churned Customers], [Number of Customers]) 
 
 - Investingating Churn Reason:   
 We got the churn rate. Now the next logical step is to investigate the different reason why customer churned. Here's the top 3 churn reason we found:   
