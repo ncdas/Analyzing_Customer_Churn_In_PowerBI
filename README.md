@@ -1,5 +1,7 @@
 # Case Study: Analyzing Customer Churn in Power BI
 
+![Dashboard Overview](https://github.com/ncdas/Analyzing_Customer_Churn_In_PowerBI/blob/4e6e81a9033b55e7364bde627b3454a322c62adf/Dashboard_overview.png "Overview")
+
 # **Project Description**
 
 For subscription-based businesses, reducing customer churn is a top priority. In this Power BI case study, We'll investigate a dataset from an example telecom company called Databel and analyze their churn rates. Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also about figuring out why customers are churning at the rate they are, and how to reduce churn. We'll answer these questions by creating **measures** and **calculated columns**, while simultaneously creating report pages.
