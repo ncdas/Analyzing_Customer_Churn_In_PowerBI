@@ -1,6 +1,6 @@
 # Case Study: Analyzing Customer Churn in Power BI
 
-![Dashboard_Overview](https://github.com/ncdas/Analyzing_Customer_Churn_In_PowerBI/blob/4e6e81a9033b55e7364bde627b3454a322c62adf/Dashboard_overview.png "Dashboard_Overview")
+![Dashboard_Overview](https://github.com/ncdas/Analyzing_Customer_Churn_In_PowerBI/blob/6f404477fc4c23cf0d8d6ee59d531b3c8cb4b48a/Dash_overview.png "Dashboard_Overview")
 
 # **Project Description**
 
